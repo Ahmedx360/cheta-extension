@@ -5,9 +5,9 @@ class Home extends Component {
   constructor(props){
     super(props);
     this.state = {
-      uniqueCode: `<cheta>`,
+      uniqueCode: `Part #:`,
       inputs: {
-        priceperword: '0.05'
+        priceperword: 'DCN: TC56 Power'
       }
     }
   }
